@@ -22,4 +22,6 @@ private:
 	SDL_Renderer* m_pRenderer = 0;
 	bool m_bRunning = true;
 	SDL_Texture* m_pTexture;
+	SDL_Rect m_sourceRectangle; //원본 사각형
+	SDL_Rect m_destubationRetangle; //대상 사각형
 };
