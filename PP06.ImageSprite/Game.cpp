@@ -71,5 +71,5 @@ void Game::handleEvents()
 
 void Game::update()
 {
-	m_sourceRectangle.x = 128 * int(((SDL_GetTicks() / 6) % 6));
+	m_sourceRectangle.x = 128 * int(((SDL_GetTicks() / 100) % 6));
 }
