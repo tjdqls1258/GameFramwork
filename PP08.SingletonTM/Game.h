@@ -21,7 +21,7 @@ private:
 	bool m_bRunning = true;
 
 	int m_currentFrame;
-	TextureManager m_textureManager;
+	//TextureManager m_textureManager;
 
 	//SDL_Texture* m_pTexture;
 	//SDL_Rect m_sourceRectangle; //원본 사각형

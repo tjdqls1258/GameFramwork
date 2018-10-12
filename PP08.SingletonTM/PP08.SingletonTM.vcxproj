@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\PP07.TextureManger\Game.cpp" />
-    <ClCompile Include="..\PP07.TextureManger\main.cpp" />
-    <ClCompile Include="..\PP07.TextureManger\TextureManger.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TextureManger.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\PP07.TextureManger\Game.h" />
-    <ClInclude Include="..\PP07.TextureManger\TextureManger.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="TextureManger.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
