@@ -5,7 +5,7 @@
 #include <map>
 #include <SDL_image.h>
 #include "TextureManger.h"
-
+#include "LoaderParams.h"
 class GameObject
 {
 public:
