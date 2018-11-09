@@ -37,7 +37,7 @@ void InputHandler::update()
 		{
 			m_keystates = SDL_GetKeyboardState(0);
 		}*/
-		if (event.type == SDL_MOUSEMOTION)
+		/*if (event.type == SDL_MOUSEMOTION)
 		{
 			m_mousePosition->setX(event.motion.x);
 			m_mousePosition->setY(event.motion.y);
@@ -71,7 +71,7 @@ void InputHandler::update()
 			{
 				m_mouseButtonStates[RIGHT] = false;
 			}
-		}
+		}*/
 		switch (event.type)
 		{
 		case SDL_QUIT:
@@ -139,8 +139,8 @@ void InputHandler::onMouseButtonDown(SDL_Event event)
 
 void InputHandler::onMouseMove(SDL_Event event)
 {
-	m_mousePosition->setX(event.motion.x);
-	m_mousePosition->setY(event.motion.y);
+	/*m_mousePosition->setX(event.motion.x);
+	m_mousePosition->setY(event.motion.y);*/
 }
 
 void InputHandler::onMouseButtonUp(SDL_Event event)
