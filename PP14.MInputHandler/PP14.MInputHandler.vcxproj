@@ -18,6 +18,27 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SDLGameObject.cpp" />
+    <ClCompile Include="TextureManger.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="LoaderParams.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="SDLGameObject.h" />
+    <ClInclude Include="TextureManger.h" />
+    <ClInclude Include="Vector2D.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{87650257-54A8-4B87-AEEE-81D75DBC039D}</ProjectGuid>
@@ -121,25 +142,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Enemy.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="SDLGameObject.cpp" />
-    <ClCompile Include="TextureManger.cpp" />
-    <ClCompile Include="Vector2D.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Enemy.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="GameObject.h" />
-    <ClInclude Include="LoaderParams.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="SDLGameObject.h" />
-    <ClInclude Include="TextureManger.h" />
-    <ClInclude Include="Vector2D.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

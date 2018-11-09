@@ -28,7 +28,7 @@ public:
 		}
 		return s_pInstance;
 	}
-
+	void quit();
 private:
 	Game();
 	static Game* s_pInstance;
